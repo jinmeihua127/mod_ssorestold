@@ -1,5 +1,5 @@
 
-#include "PluginConfiguration.h"
+#include "SSORestPlugin.h"
 
 namespace ssorest {
     PluginConfiguration::PluginConfiguration()

@@ -2,7 +2,7 @@
 #include <http_request.h>
 #include <http_log.h>
 #include <http_core.h>
-#include "PluginConfiguration.h"
+#include "SSORestPlugin.h"
 using namespace ssorest;
 
 static const char* setEnable(cmd_parms* command, void* /*config*/, const char* argument);

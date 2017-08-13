@@ -61,7 +61,7 @@ if not environment.GetOption('clean'):
         print "Platform '" + platform + "' is not supported"
         sys.exit(1)
     	
-sources = [ 'PluginConfiguration.cpp',
+sources = [ 'SSORestPlugin.cpp',
             'mod_ssorest.cpp']
 
 environment['STATIC_AND_SHARED_OBJECTS_ARE_THE_SAME'] = 1
